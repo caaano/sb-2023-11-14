@@ -3,6 +3,7 @@ package com.ll.sb20231114;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -146,7 +147,6 @@ public class HomeController {
         return persons;
     }
 
-
     @GetMapping("/calc14")
     @ResponseBody
     String showCalc14() {
@@ -184,7 +184,7 @@ public class HomeController {
     String showCalc17() {
         String html = """
                 <div>
-                    <input type="text"placeholder="내용">
+                    <input type="text" placeholder="내용">
                 </div>
                 """;
 
@@ -196,7 +196,7 @@ public class HomeController {
     String showCalc18() {
         String html = """
                 <div>
-                    <input type="text"placeholder="내용" value="반가워요.">
+                    <input type="text" placeholder="내용" value="반가워요.">
                 </div>
                 """;
 
@@ -205,8 +205,9 @@ public class HomeController {
 
     @GetMapping("/calc19")
     @ResponseBody
-    String showCalc19(@RequestParam(defaultValue = "") String subject,
-                      @RequestParam(defaultValue = "") String content
+    String showCalc19(
+            @RequestParam(defaultValue = "") String subject,
+            @RequestParam(defaultValue = "") String content
     ) {
         String html = """
                 <div>
@@ -220,17 +221,29 @@ public class HomeController {
         return html;
     }
 
-    @AllArgsConstructor
-    class Person {
-        public String name;
-        public int age;
+    @GetMapping("/calc20")
+    String showCalc20() {
+        return "calc20";
     }
 
-    @AllArgsConstructor
-    class Person2 {
-        @Getter
-        private String name;
-        @Getter
-        private int age;
+    @GetMapping("/calc21")
+    String showCalc21(Model model) {
+        model.addAttribute("v1", "안녕");
+        model.addAttribute("v2", "반가워");
+        return "calc21";
     }
+}
+
+@AllArgsConstructor
+class Person {
+    public String name;
+    public int age;
+}
+
+@AllArgsConstructor
+class Person2 {
+    @Getter
+    private String name;
+    @Getter
+    private int age;
 }
