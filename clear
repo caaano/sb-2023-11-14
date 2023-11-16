@@ -1,0 +1,161 @@
+[33mcommit f09c9b5584e93c8728f72235e6c12738aeb011c7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Thu Nov 16 09:22:15 2023 +0900
+
+    step 17, getElementById
+
+[33mcommit f837b966de47bfa6d93f0a245ea596bef01d2707[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 17:49:39 2023 +0900
+
+    step 16, const title, const body
+
+[33mcommit 93a6f60edfdae3839a32a3b7eb275f276c6b05e4[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 17:45:43 2023 +0900
+
+    step 15, location.href
+
+[33mcommit 4cddcd353bbe9d3f821995421d538dea89808a6d[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 17:43:35 2023 +0900
+
+    step 14, submitWriteForm
+
+[33mcommit 2b5f2a3cd515797f6b8380a9eb35a8fc8cce752e[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 17:38:46 2023 +0900
+
+    step 13, javascript:;
+
+[33mcommit e6825929251081ddfca2ade68fc63419da18cbe1[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 17:34:56 2023 +0900
+
+    step 13, javascript:;
+
+[33mcommit a5c33f1cbb500f1aa05fa8b7d99c2ff5622bba0f[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 15:43:20 2023 +0900
+
+    step 12, flex, input*2
+
+[33mcommit 73b18fc2e92fd17dc3789101cf8328c8d978e854[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 14:55:56 2023 +0900
+
+    step 11
+
+[33mcommit 34c651bc96fa2ac6a9394acde9fe6fa0a83dc298[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 14:49:37 2023 +0900
+
+    step10
+
+[33mcommit 2d750d050bc7073178911aa733dfb5bdab666b1a[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 14:39:49 2023 +0900
+
+    step 9
+
+[33mcommit 6087e77fd16e571875639c31a5ed0a5e9fa36c59[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 14:20:10 2023 +0900
+
+    step 8
+
+[33mcommit dd02a7887cc9950dfaeab75c5f59d02fb052e259[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 13:56:51 2023 +0900
+
+    step7
+
+[33mcommit b7f9caacd936c7b175cdcbeeead8b667103e9840[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 13:49:42 2023 +0900
+
+    step6
+
+[33mcommit 3cf2ebdf4c9afb37964c77cb5b37bdff98f5a316[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 13:26:42 2023 +0900
+
+    step5
+
+[33mcommit b95e12ca30a8c4476940b6b9feaa5117463356ea[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 13:17:33 2023 +0900
+
+    step4
+
+[33mcommit 621e641072cb326a03cebc9b5f6923a981813f08[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 13:10:03 2023 +0900
+
+    step3
+
+[33mcommit 7b4e862fe6f239c21b7540629ba377985bc5e5e6[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 13:04:00 2023 +0900
+
+    step2
+
+[33mcommit 6fa5e2e006500f2e72e862f99fbcba1f7033cfe6[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 11:46:59 2023 +0900
+
+    article/write, step1
+
+[33mcommit 6dffd24cb34170bf794bfa48262cb2fc6bb89db6[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 11:24:37 2023 +0900
+
+    actuator
+
+[33mcommit 5cceab99cb961da38bad8d978eb986a800dc4dad[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Wed Nov 15 11:19:23 2023 +0900
+
+    ãcalc22
+
+[33mcommit fc0d9d5104f32fa860d8ab1439a6575b8213dc12[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Tue Nov 14 17:57:13 2023 +0900
+
+    spring.thymeleaf.cache false
+
+[33mcommit 9f0bb291a5cf9df0a124cf6f503995d6281fdea9[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Tue Nov 14 17:51:58 2023 +0900
+
+    타임리프
+
+[33mcommit 7184eecfb20e995aad0a277dc1fa9d99dd439903[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Tue Nov 14 17:10:11 2023 +0900
+
+    긴 응답
+
+[33mcommit c2dabeb6a5ec2c7fa7a2b64a38976f15e71f5fc2[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Tue Nov 14 15:45:04 2023 +0900
+
+    calc6 ~ calc13
+
+[33mcommit 1188dbd753cf3f17c4cb3d7fae1c9e879537add2[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Tue Nov 14 13:35:36 2023 +0900
+
+    cal3 ~ cal5
+
+[33mcommit ecfb5b9956e9223e2f9267707783640b1d8cb5ca[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Tue Nov 14 11:34:17 2023 +0900
+
+    C:/Program Files/Git/, /about
+
+[33mcommit 57c9c9c7c5d32abce3b57f8d02c94160111c018f[m
+Author: caaano <wlsrl0515@naver.com>
+Date:   Tue Nov 14 10:10:25 2023 +0900
+
+    setting
