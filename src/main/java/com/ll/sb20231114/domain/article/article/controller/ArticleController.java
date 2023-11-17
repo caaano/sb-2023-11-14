@@ -1,5 +1,6 @@
 package com.ll.sb20231114.domain.article.article.controller;
 
+import com.ll.sb20231114.domain.article.article.article.service.ArticleService;
 import com.ll.sb20231114.domain.article.article.entity.Article;
 import com.ll.sb20231114.global.RsData;
 import org.springframework.stereotype.Controller;
@@ -12,6 +13,7 @@ import java.util.List;
 
 @Controller
 public class ArticleController {
+    private final ArticleService articleService = new ArticleService();
     private List<Article> articles = new ArrayList<>();
 
     @GetMapping("/article/write")
@@ -25,32 +27,26 @@ public class ArticleController {
             String title,
             String body
     ) {
-        Article article = new Article(articles.size() + 1, title, body);
-        articles.add(article);
+        Article article = articleService.write(title, body);
 
         RsData<Article> rs = new RsData<>(
                 "S-1",
                 "%d번 게시물이 작성되었습니다.".formatted(article.getId()),
                 article
         );
-
-        String resultCode = rs.getResultCode();
-        String msg = rs.getMsg();
-        Article _article = rs.getData();
-
         return rs;
     }
 
     @GetMapping("/article/getLastArticle")
     @ResponseBody
     Article getLastArticle() {
-        return articles.getLast();
+        return articleService.findLastArticle();
     }
 
     @GetMapping("/article/getArticles")
     @ResponseBody
     List<Article> getArticles() {
-        return articles;
+        return articleService.findAll();
     }
 }
 
